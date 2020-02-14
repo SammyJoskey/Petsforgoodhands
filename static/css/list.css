@@ -1,0 +1,30 @@
+.wrapper {
+	display: grid;
+	max-width: 850px;
+	margin: auto;
+	justify-content: center;
+	height: auto;
+	grid-column-gap: 10px;
+	grid-row-gap: 1em;
+	grid-template-columns: repeat(auto-fill, 200px);
+}
+
+.petname {
+	position: relative;
+}
+
+.petname > h4 {
+	font-weight: bold;
+	visibility: hidden;
+	position: absolute;
+	bottom: -5px;
+    width: 100%;
+    text-align: center;
+    background-color: grey;
+    opacity: 0.8;
+}
+
+.petname:hover > h4 {
+	visibility: visible;
+}
+

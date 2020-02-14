@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block extra_css %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/list.css' %}" >
+{% endblock %}
+
+{% block content %}
+
+<div class="wrapper" style="margin-bottom: 50px;">
+    {% for pet in pets_list %}
+        <div class="box">
+            <div class="petname">
+                <a href="{% url 'pets_detail' pet.pk pet.slug %}">
+                    <img style="width:200px; height:200px;" src="{{ MEDIA_URL }}{{ pet.image }}">
+                </a> 
+                <h4> {{ pet.name }} </h4> 
+            </div>
+        </div>
+    {% endfor %}
+</div>
+{% endblock %}
+

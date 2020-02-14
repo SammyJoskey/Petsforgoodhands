@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "LobsterRegular";
+    src: url("../Fonts/Lobster-Regular.ttf");
+    font-style: normal;
+    font-weight: normal; 
+}
+
+.navbar {
+    background-color: yellow;
+    min-height: 60px;
+    max-height: 120px;
+    font-family: "LobsterRegular";
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+footer {
+    position:fixed;
+    bottom:0;
+    width: 100%;
+    background-color: yellow;
+    height: 60px; 
+}
+
+.side > a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.side > a:nth-child(-n+2) {
+    margin-right: 15px;
+}

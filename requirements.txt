@@ -1,0 +1,8 @@
+dj-database-url
+Django
+django-bootstrap-static
+django-crispy-forms
+django-heroku
+gunicorn
+lazy-object-proxy
+Pillow

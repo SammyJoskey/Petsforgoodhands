@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %} Добавить животное {% endblock %}
+
+{% load crispy_forms_tags %}
+
+{% block content %}
+	<div class="container" style="margin-bottom: 100px;">
+		<div class="row">
+			<div class="col-md-6 mx-auto">
+				<h2 class="display-4 text-center">Добавьте животное:</h2>
+				{% crispy form %}
+			</div> 
+		</div>
+	</div> 
+{% endblock %}

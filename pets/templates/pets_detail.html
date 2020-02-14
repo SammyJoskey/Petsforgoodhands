@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %} {{pet.name}} {% endblock %}
+{% block extra_css %}
+<link rel="stylesheet" type="text/css" href="{% static 'css/detail.css' %}" >
+{% endblock %}
+
+
+{% block content %}
+<div class="wrapper">
+
+    <div class="box1"> 
+        <h2 class="display-4"> {{ pet.name }} </h2>
+        <img style="width:350px" src="{{ MEDIA_URL }}{{ pet.image }}">
+    </div>
+
+    <div class="box2">
+        <div class="box2 box3 ">{% if 'm' in pet.sex %} Мальчик {% else %}Девочка {% endif %}, {{ pet.age }} <br>
+        {{ pet.breed }}</div>
+        <div class="box2 box4"><em>Комментарий:</em><br>{{ pet.description }}</div>
+        <div class="box2 box5">Опубликовано:<br>{{ pet.arrival_date }}</div>
+    </div>
+
+</div>
+
+{% endblock %}

@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block title %} {{news.title}} {% endblock %}
+
+{% block content %}
+<div class="container justify-content-center">
+    <h4 > {{ news.title }} </h4>
+    <p>{{ news.text }}</p>
+    <em> {{ news.pub_date }} </em>
+</div>
+{% endblock %}

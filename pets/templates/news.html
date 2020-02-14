@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block title %} Новости {% endblock %}
+{% block content %}
+<div class="container justify-content-center">
+    {% if latest_news %}
+        {% for news in latest_news %}
+        <a href="{% url 'expand' news.id %}"><h4 > {{ news.title }} </h4></a>
+        <em >{{ news.pub_date }}</em>
+        {% endfor %}
+    {% else %}
+    <h4 > Новостей нет </h4>
+    {% endif %}
+</div>
+
+{% endblock %}
