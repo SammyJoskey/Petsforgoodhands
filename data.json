@@ -79,11 +79,11 @@
         "sex": "f",
         "age": "1 \u0433\u043e\u0434",
         "name": "\u041c\u0443\u0441\u044f",
-        "breed": "\u0431\u0435\u0437",
+        "breed": "\u0431\u0435\u0437 \u043f\u043e\u0440\u043e\u0434\u044b",
         "description": "",
         "arrival_date": "2020-02-10T03:13:42.415Z",
         "image": "img/2020/02/10/kktjkrfj.jpg",
-        "slug": "musya"
+        "slug": "musia"
     }
 },
 {
@@ -94,7 +94,7 @@
         "sex": "m",
         "age": "6 \u043c\u0435\u0441\u044f\u0446\u0435\u0432",
         "name": "\u0421\u0435\u0432\u0430",
-        "breed": "\u0431\u0435\u0437",
+        "breed": "\u0431\u0435\u0437 \u043f\u043e\u0440\u043e\u0434\u044b",
         "description": "",
         "arrival_date": "2020-02-10T03:14:08.324Z",
         "image": "img/2020/02/10/bbbb_SHwTPik.jpg",
@@ -169,7 +169,7 @@
         "sex": "f",
         "age": "1 \u0433\u043e\u0434",
         "name": "\u0421\u0438\u043c\u0430",
-        "breed": "\u0431\u0435\u0437",
+        "breed": "\u0431\u0435\u0437 \u043f\u043e\u0440\u043e\u0434\u044b",
         "description": "",
         "arrival_date": "2020-02-10T12:24:10.033Z",
         "image": "img/2020/02/10/bw.jpg",
@@ -184,7 +184,7 @@
         "sex": "f",
         "age": "2 \u043c\u0435\u0441\u044f\u0446\u0430",
         "name": "\u0414\u0436\u0435\u0441\u0441\u0438",
-        "breed": "\u0431\u0435\u0437",
+        "breed": "\u0431\u0435\u0437 \u043f\u043e\u0440\u043e\u0434\u044b",
         "description": "",
         "arrival_date": "2020-02-10T12:28:01.742Z",
         "image": "img/2020/02/10/5c56.jpg",
@@ -762,6 +762,58 @@
         "content_type": 7,
         "object_id": "7",
         "object_repr": "\u0424\u0440\u0435\u044f",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u043e\\u0440\\u043e\\u0434\\u0430\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+        "action_time": "2020-02-14T08:40:32.336Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "10",
+        "object_repr": "\u0414\u0436\u0435\u0441\u0441\u0438",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u043e\\u0440\\u043e\\u0434\\u0430\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+        "action_time": "2020-02-14T08:40:37.734Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "9",
+        "object_repr": "\u0421\u0438\u043c\u0430",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u043e\\u0440\\u043e\\u0434\\u0430\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+        "action_time": "2020-02-14T08:40:43.594Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "4",
+        "object_repr": "\u0421\u0435\u0432\u0430",
+        "action_flag": 2,
+        "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u043e\\u0440\\u043e\\u0434\\u0430\"]}}]"
+    }
+},
+{
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+        "action_time": "2020-02-14T08:40:49.931Z",
+        "user": 1,
+        "content_type": 7,
+        "object_id": "3",
+        "object_repr": "\u041c\u0443\u0441\u044f",
         "action_flag": 2,
         "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u043e\\u0440\\u043e\\u0434\\u0430\"]}}]"
     }
