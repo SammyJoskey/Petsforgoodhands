@@ -6,3 +6,4 @@ django-heroku
 gunicorn
 lazy-object-proxy
 Pillow
+python-slugify
